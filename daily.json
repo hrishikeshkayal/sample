@@ -1,0 +1,721 @@
+{
+	"error_code": 200,
+	"message": "message string....",
+	"filter_name": "Daily",
+	"data": [{
+		"id": 1,
+		"type": "col",
+		"col_name": "00:00",
+		"data_row": [{
+			"id": 1,
+			"type": "row",
+			"row_name": "Application1",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 2,
+			"type": "row",
+			"row_name": "Application2",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 3,
+			"type": "row",
+			"row_name": "Application3",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 4,
+			"type": "row",
+			"row_name": "Application4",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 5,
+			"type": "row",
+			"row_name": "Application5",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}]
+	}, {
+		"id": 2,
+		"type": "col",
+		"col_name": "02:00",
+		"data_row": [{
+			"id": 1,
+			"type": "row",
+			"row_name": "Application1",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 2,
+			"type": "row",
+			"row_name": "Application2",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 3,
+			"type": "row",
+			"row_name": "Application3",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 4,
+			"type": "row",
+			"row_name": "Application4",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 5,
+			"type": "row",
+			"row_name": "Application5",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}]
+	}, {
+		"id": 3,
+		"type": "col",
+		"col_name": "04:00",
+		"data_row": [{
+			"id": 1,
+			"type": "row",
+			"row_name": "Application1",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 2,
+			"type": "row",
+			"row_name": "Application2",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 3,
+			"type": "row",
+			"row_name": "Application3",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 4,
+			"type": "row",
+			"row_name": "Application4",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 5,
+			"type": "row",
+			"row_name": "Application5",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}]
+	}, {
+		"id": 4,
+		"type": "col",
+		"col_name": "06:00",
+		"data_row": [{
+			"id": 1,
+			"type": "row",
+			"row_name": "Application1",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 2,
+			"type": "row",
+			"row_name": "Application2",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 3,
+			"type": "row",
+			"row_name": "Application3",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 4,
+			"type": "row",
+			"row_name": "Application4",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 5,
+			"type": "row",
+			"row_name": "Application5",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}]
+	}, {
+		"id": 5,
+		"type": "col",
+		"col_name": "08:00",
+		"data_row": [{
+			"id": 1,
+			"type": "row",
+			"row_name": "Application1",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 2,
+			"type": "row",
+			"row_name": "Application2",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 3,
+			"type": "row",
+			"row_name": "Application3",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 4,
+			"type": "row",
+			"row_name": "Application4",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 5,
+			"type": "row",
+			"row_name": "Application5",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}]
+	}, {
+		"id": 2,
+		"type": "col",
+		"col_name": "10:00",
+		"data_row": [{
+			"id": 1,
+			"type": "row",
+			"row_name": "Application1",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 2,
+			"type": "row",
+			"row_name": "Application2",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 3,
+			"type": "row",
+			"row_name": "Application3",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 4,
+			"type": "row",
+			"row_name": "Application4",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 5,
+			"type": "row",
+			"row_name": "Application5",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}]
+	}, {
+		"id": 2,
+		"type": "col",
+		"col_name": "12:00",
+		"data_row": [{
+			"id": 1,
+			"type": "row",
+			"row_name": "Application1",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 2,
+			"type": "row",
+			"row_name": "Application2",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 3,
+			"type": "row",
+			"row_name": "Application3",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 4,
+			"type": "row",
+			"row_name": "Application4",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 5,
+			"type": "row",
+			"row_name": "Application5",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}]
+	}, {
+		"id": 2,
+		"type": "col",
+		"col_name": "14:00",
+		"data_row": [{
+			"id": 1,
+			"type": "row",
+			"row_name": "Application1",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 2,
+			"type": "row",
+			"row_name": "Application2",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 3,
+			"type": "row",
+			"row_name": "Application3",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 4,
+			"type": "row",
+			"row_name": "Application4",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 5,
+			"type": "row",
+			"row_name": "Application5",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}]
+	}, {
+		"id": 2,
+		"type": "col",
+		"col_name": "16:00",
+		"data_row": [{
+			"id": 1,
+			"type": "row",
+			"row_name": "Application1",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 2,
+			"type": "row",
+			"row_name": "Application2",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 3,
+			"type": "row",
+			"row_name": "Application3",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 4,
+			"type": "row",
+			"row_name": "Application4",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 5,
+			"type": "row",
+			"row_name": "Application5",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}]
+	}, {
+		"id": 2,
+		"type": "col",
+		"col_name": "18:00",
+		"data_row": [{
+			"id": 1,
+			"type": "row",
+			"row_name": "Application1",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 2,
+			"type": "row",
+			"row_name": "Application2",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 3,
+			"type": "row",
+			"row_name": "Application3",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 4,
+			"type": "row",
+			"row_name": "Application4",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 5,
+			"type": "row",
+			"row_name": "Application5",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}]
+	}, {
+		"id": 2,
+		"type": "col",
+		"col_name": "20:00",
+		"data_row": [{
+			"id": 1,
+			"type": "row",
+			"row_name": "Application1",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 2,
+			"type": "row",
+			"row_name": "Application2",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 3,
+			"type": "row",
+			"row_name": "Application3",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 4,
+			"type": "row",
+			"row_name": "Application4",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 5,
+			"type": "row",
+			"row_name": "Application5",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}]
+	}, {
+		"id": 2,
+		"type": "col",
+		"col_name": "22:00",
+		"data_row": [{
+			"id": 1,
+			"type": "row",
+			"row_name": "Application1",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 2,
+			"type": "row",
+			"row_name": "Application2",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 3,
+			"type": "row",
+			"row_name": "Application3",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 4,
+			"type": "row",
+			"row_name": "Application4",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 5,
+			"type": "row",
+			"row_name": "Application5",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}]
+	}, {
+		"id": 2,
+		"type": "col",
+		"col_name": "24:00",
+		"data_row": [{
+			"id": 1,
+			"type": "row",
+			"row_name": "Application1",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 2,
+			"type": "row",
+			"row_name": "Application2",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 3,
+			"type": "row",
+			"row_name": "Application3",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 4,
+			"type": "row",
+			"row_name": "Application4",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}, {
+			"id": 5,
+			"type": "row",
+			"row_name": "Application5",
+			"isTicket": {
+				"mode": true,
+				"ticket_number": ""
+			},
+			"field_color": "#ccccccc"
+
+		}]
+	}]
+}

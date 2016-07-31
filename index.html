@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="chartBar">
+<script
+			  src="https://code.jquery.com/jquery-2.2.4.min.js"
+			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+			  crossorigin="anonymous"></script>
+<style>
+  rect:hover
+  {
+    opacity: 0.5;
+  }
+</style>
+
+<script type="text/javascript">
+	$('document').ready(function(e){
+		var data = $.get('monthly.json',function( data ){
+			//alert(JSON.stringify(data));
+			plotbox(data.data);
+		});
+	});
+	
+	function plotbox(data){
+		var svg = '<svg  style="position:absolute; top:50%; left:50%; width:1000px; height:240px; margin:-120px 0px 0px -500px;">';
+		var innerData = "";	
+		
+		innerData+='<g class="myclass">';
+		$.each(data[0].data_row,function(i,row){
+			innerData+='<text x="0" y="195" style="fill:rgb(0,0,0);font-size:12px;" >'+row.row_name+'</text>';
+			
+		});
+		innerData+="</g>";
+		
+		$('#svg').append(svg+innerData+'</svg>');
+		
+		var maxWidth = $(".myclass")[0].getBBox().width;
+		$("#svg").html("");
+		
+		
+		innerData = "";
+		
+		innerData+=setAxis(maxWidth,data);
+		innerData+=setPoints(maxWidth,data);
+		
+
+		$('#svg').append(svg+innerData+'</svg>');
+	}
+	
+	function rectClick(appName,ticket){
+		alert(appName+":::"+ticket);
+	}
+	function colClick(data){
+		alert(data);
+	}
+	function rowClick(data){
+		alert(data);
+	}
+	
+	function setAxis(maxWidth,data){
+		var intX = maxWidth+36;
+		var intX1 = intX+5;
+		var innerData="";
+		var maxY = (data[0].data_row.length*21)+2;
+		var maxY1 = maxY+17;
+		var diffX = 30;
+		innerData+='<g>';
+		$.each(data,function(i,col){
+			innerData+='<text onClick="colClick(\''+col.col_name+'\');" x="'+intX+'"  y="'+maxY1+'" style="fill:rgb(0,0,0);font-size:12px; width:10px;">'+col.col_name+'</text>'+
+						'<line x1="'+intX1+'" y1="'+maxY+'" x2="'+intX1+'" y2="'+(maxY+5)+'" style="stroke:rgb(0,0,0);stroke-width:1" />';
+			intX+=diffX;
+			intX1+=diffX;
+		});
+		innerData+='</g>';
+		
+
+		
+		intX = 0;
+		intY = 14;
+		intX1 = maxWidth+12;
+		var intY1 = 9;
+		var diffY = 21;
+		innerData+='<g>';
+		$.each(data[0].data_row,function(i,row){
+			innerData+='<text onClick="rowClick(\''+row.row_name+'\');" x="'+intX+'"  y="'+intY+'" style="fill:rgb(0,0,0);font-size:12px; width:10px;">'+row.row_name+'</text>'+
+						'<line x1="'+intX1+'" y1="'+intY1+'" x2="'+(intX1+5)+'" y2="'+intY1+'" style="stroke:rgb(0,0,0);stroke-width:1" />';
+				
+			intY+=diffY;
+			intY1+=diffY;
+		});
+		innerData+='</g>';
+		
+		var maxX = (data.length*30)+intX1+30;
+		
+		innerData+='<g>'+
+						'<path d="M'+(intX1+6)+' 0 V'+(intX1+6)+' '+maxY+'" stroke="#000" stroke-width="1" fill="none"/>'+
+						'<path d="M'+(intX1+5)+' '+(intY1-8)+' H'+maxX+' '+(intY1-8)+'" stroke="#000" stroke-width="1" fill="none"/>'+
+					'</g>';
+		
+		
+		
+		
+		return innerData;
+	}
+	
+	
+	function setPoints(maxWidth,data){
+		var intX = maxWidth+30;
+		var intY = 0;
+		var diffY = 21;
+		var diffX = 30;
+		
+		var innerData="";
+		$.each(data,function(i,col){
+			console.log(data.length);
+			innerData+="<g>";
+			$.each(col.data_row,function(j,row){
+				console.log("MODE VALUE >"+row.isTicket.mode);
+				if(row.isTicket.mode){
+					innerData+='<rect  x="'+intX+'" y="'+intY+'" width="20" height="20" style="fill:'+row.field_color+'" />';
+				}
+				else{
+					innerData+='<rect onClick="rectClick(\''+row.row_name+'\',\''+row.isTicket.ticket_number+'\');" x="'+intX+'" y="'+intY+'" width="20" height="20" style="fill:'+row.field_color+'" />';
+				}
+				
+				intY=intY+diffY;
+			});
+			intX=intX+diffX;
+			intY = 0;
+			innerData+="</g>";
+		});
+		
+		return innerData;
+	}
+	
+</script>
+<body>
+
+<div id="svg" >
+	
+</div>
+
+</body>
+</html> 
+
